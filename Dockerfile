@@ -2,7 +2,7 @@ FROM binhex/arch-base:latest
 MAINTAINER binhex
 
 # additional files
-#################
+##################
 
 # add supervisor conf file for app
 ADD build/*.conf /etc/supervisor/conf.d/
