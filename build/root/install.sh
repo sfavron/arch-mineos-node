@@ -35,7 +35,7 @@ fi
 ####
 
 # define pacman packages
-pacman_packages="git rdiff-backup screen rsync npm node-gyp base-devel jre11-openjdk-headless"
+pacman_packages="git rdiff-backup screen rsync npm node-gyp base-devel jre8-openjdk-headless"
 
 # install compiled packages using pacman
 if [[ ! -z "${pacman_packages}" ]]; then
